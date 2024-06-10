@@ -25,7 +25,7 @@ const LinkViewAndForm = () => {
   return(
     <>
     <Toaster/>
-        <div id="container" className='p-2 m-3 flex tablet:flex-row mobile:flex-col gap-2 h-screen mobile:h-[217vh] mb-8'>
+        <div id="container" className='p-2 m-3 flex tablet:flex-row mobile:flex-col gap-2 tablet:h-screen h-[217vh] mb-8'>
           <div id="mobileWrapper" className='basis-2/5  lg:basis-2/5 border-2 rounded-xl bg-white p-2 m-2 flex justify-center items-center h-[45rem]'>
             <div id="profilePreview" className='flex justify-center items-center h-full w-2/3'>
               <img src={phoneOutline} className='h-[80%] sm:w-[40%] tablet:w-[31%] lg:w-[23%] absolute' alt='Phone Outline'/>
