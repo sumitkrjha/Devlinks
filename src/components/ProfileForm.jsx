@@ -105,7 +105,7 @@ const ProfileForm = () => {
           />
 
           {/* Label for information about image dimensions and formats */}
-          <p className='text-base text-gray-600 mt-2'>
+          <p className='text-base text-gray-600 mt-2 max-[500px]:hidden'>
             Image must be below 1024x1024px. <br />Use PNG, JPG, or BMP format.
           </p>
         </div>

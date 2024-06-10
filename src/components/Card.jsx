@@ -35,7 +35,7 @@ const Card = () => {
                         <button type="button" class="text-white bg-[#24292F] hover:bg-[#333942] font-medium rounded-lg text-sm h-12 w-52 px-5 py-2.5 text-center inline-flex justify-between items-center me-2 mb-2 pb-2">
                             <div class="flex items-center">
                             <img src={github} alt="github" className="w-4 h-4 me-2 "/>      
-                            <a href={link.link} target='_blank'>GitHub</a> 
+                            <a href={link.link} target='_blank' rel='noreferrer'>GitHub</a> 
                             </div>
                             <img src={forwardArrow} alt="arrow" className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
                         </button>
@@ -44,7 +44,7 @@ const Card = () => {
                         <button type="button" class="text-white bg-[#0077B5] hover:bg-[#0D8DB5] font-medium rounded-lg text-sm h-12 w-52 px-5 py-2.5 text-center inline-flex justify-between items-center me-2 mb-2 pb-2">
                             <div class="flex items-center">
                             <img src={linkedin} alt="linkedin" className="w-4 h-4 me-2 "/>   
-                            <a href={link.link} target='_blank'>LinkedIn</a>
+                            <a href={link.link} target='_blank' rel='noreferrer'>LinkedIn</a>
                             </div>
                             <img src={forwardArrow} alt="arrow" className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
                         </button>
@@ -53,7 +53,7 @@ const Card = () => {
                         <button type="button" class="text-white bg-[#FF0000] hover:bg-[#FF3333] font-medium rounded-lg text-sm h-12 w-52 px-5 py-2.5 text-center inline-flex justify-between items-center me-2 mb-2 pb-2">
                             <div class="flex items-center">
                             <img src={youtube} alt="youtube" className="w-4 h-4 me-2 "/>
-                            <a href={link.link} target='_blank'>YouTube</a>
+                            <a href={link.link} target='_blank' rel='noreferrer'>YouTube</a>
                             </div>
                             <img src={forwardArrow} alt="arrow" className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
                         </button>

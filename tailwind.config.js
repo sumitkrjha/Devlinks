@@ -21,7 +21,8 @@ module.exports = {
         '3xl': '0 35px 60px -15px rgb(99, 59, 254)',
       },
       screens:{
-        'mobile':'480px'
+          "mobile":"350px",
+          "tablet":"900px"
       },
     },
   },

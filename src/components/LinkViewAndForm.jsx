@@ -25,11 +25,11 @@ const LinkViewAndForm = () => {
   return(
     <>
     <Toaster/>
-        <div id="container" className='p-2 m-3 flex gap-2 h-screen mb-8'>
-          <div id="mobileWrapper" className='basis-2/5 border-2 rounded-xl bg-white p-2 m-2 flex justify-center items-center h-[45rem]'>
+        <div id="container" className='p-2 m-3 flex tablet:flex-row mobile:flex-col gap-2 h-screen mobile:h-[217vh] mb-8'>
+          <div id="mobileWrapper" className='basis-2/5  lg:basis-2/5 border-2 rounded-xl bg-white p-2 m-2 flex justify-center items-center h-[45rem]'>
             <div id="profilePreview" className='flex justify-center items-center h-full w-2/3'>
-              <img src={phoneOutline} className='h-[80%] w-[23%] absolute' alt='Phone Outline'/>
-              <div className="absolute w-[29%] top-60 left-27 text-black">
+              <img src={phoneOutline} className='h-[80%] sm:w-[40%] tablet:w-[31%] lg:w-[23%] absolute' alt='Phone Outline'/>
+              <div className="absolute w-[56%] sm:w-[29%] top-60 left-27 text-black">
                 <div id="cardWrapper" className='mt-5'>
                   <div id="nameContainer" className='pt-5 flex flex-col items-center'>
                         {linkData.map((link, index) => (
@@ -38,7 +38,7 @@ const LinkViewAndForm = () => {
                               <button type="button" class="text-white bg-[#24292F] hover:bg-[#333942] font-medium rounded-lg text-sm h-12 w-52 px-5 py-2.5 text-center inline-flex justify-between items-center me-2 mb-5 pb-2">
                                   <div class="flex items-center">
                                   <img src={github} alt="github" className="w-4 h-4 me-2 "/>      
-                                  <a href={link.link} target='_blank'>GitHub</a> 
+                                  <a href={link.link} target='_blank' rel='noreferrer'>GitHub</a> 
                                   </div>
                                   <img src={forwardArrow} alt="arrow" className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
                               </button>
@@ -47,7 +47,7 @@ const LinkViewAndForm = () => {
                               <button type="button" class="text-white bg-[#0077B5] hover:bg-[#0D8DB5] font-medium rounded-lg text-sm h-12 w-52 px-5 py-2.5 text-center inline-flex justify-between items-center me-2 mb-5 pb-2">
                                   <div class="flex items-center">
                                   <img src={linkedin} alt="linkedin" className="w-4 h-4 me-2 "/>   
-                                  <a href={link.link} target='_blank'>LinkedIn</a>
+                                  <a href={link.link} target='_blank' rel='noreferrer'>LinkedIn</a>
                                   </div>
                                   <img src={forwardArrow} alt="arrow" className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
                               </button>
@@ -56,7 +56,7 @@ const LinkViewAndForm = () => {
                               <button type="button" class="text-white bg-[#FF0000] hover:bg-[#FF3333] font-medium rounded-lg text-sm h-12 w-52 px-5 py-2.5 text-center inline-flex justify-between items-center me-2 mb-2 pb-2">
                                   <div class="flex items-center">
                                   <img src={youtube} alt="youtube" className="w-4 h-4 me-2 "/>
-                                  <a href={link.link} target='_blank'>YouTube</a>
+                                  <a href={link.link} target='_blank' rel='noreferrer'>YouTube</a>
                                   </div>
                                   <img src={forwardArrow} alt="arrow" className="rtl:rotate-180 w-3.5 h-3.5 ms-2"/>
                               </button>
@@ -68,7 +68,7 @@ const LinkViewAndForm = () => {
               </div>
             </div>
           </div>
-          <div id="profileDetailsWrapper" className='basis-3/5 border-2 rounded-xl bg-white m-2 p-2 overflow-y-auto h-[45rem]'>
+          <div id="profileDetailsWrapper" className='basis-1/2 lg:basis-3/5 border-2 rounded-xl bg-white m-2 p-2 overflow-y-auto h-[45rem]'>
             <div id="headingDetails" className='h-30 w-full pt-5 pl-5 pb-2 flex flex-col gap-3'>
               <h1 className='font-bold text-3xl text-gray-800'> Customize your links </h1>
               <p className=' text-base text-gray-600'>Add/edit/remove links below and then share all your profiles with the world!</p>
