@@ -14,13 +14,13 @@ const MobileView = () => {
           <div id="mobileWrapper" className='basis-1/2 lg:basis-2/5 border-2 rounded-xl bg-white p-2 m-2 flex justify-center items-center h-[45rem]'>
             <div id="profilePreview" className='flex justify-center items-center h-full w-2/3'>
               <img src={phoneOutline} className='h-[80%] sm:w-[40%] tablet:w-[31%] lg:w-[23%] absolute' alt='Phone Outline'/>
-              <div className="absolute w-[56%] sm:w-[29%] top-60 left-27 text-black">
+              <div className="absolute w-[56%] sm:w-[29%] top-64 sm:top-60 left-27 text-black">
                 <div id="cardWrapper" className='mt-5 '>
                   <div id="imageContainer" className='w-full flex justify-center'>
                   {userData.profilePhoto && <img src={userData.profilePhoto } alt="avatar" className='h-24 w-24 rounded-full border-4 border-purply'/>}
                   </div>
                   <div id="nameContainer" className='pt-5 flex flex-col items-center'>
-                      <h2 className='text-3xl font-bold text-gray-700'>{userData.firstName} {userData.lastName}</h2>
+                      <h2 className='text-xl sm:text-3xl font-bold text-gray-700'>{userData.firstName} {userData.lastName}</h2>
                       <p className='text-sm text-gray-500'>{userData.email}</p>
                   </div>
                 </div>
