@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# DevLinks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DevLinks is a streamlined developer link management tool designed to empower developers by offering a centralized platform for managing and sharing their development resources. This frontend application makes it easy for developers to share their different profiles across platforms with just one link.
 
-## Available Scripts
+![devlinks](https://github.com/sumitkrjha/Devlinks/assets/167055828/ed481913-b41c-4c6c-a9ba-4bd82490352b)
 
-In the project directory, you can run:
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out DevLinks live at [DevLinks Live](https://devlinks-nsir.onrender.com/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Important Note
+DevLinks is currently a ***frontend*** project only. As of now, it does not support actual sharing of links or profiles. It is designed to demonstrate the user interface and user experience for managing developer links.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Centralized Hub**: Manage all your development platform links (code, docs, etc.) in one place using a ReactJS dynamic interface.
+- **Effortless Profile Creation**: Formik streamlines user profile and developer link creation with validation for accuracy.
+- **Live Preview**: See how your DevLinks profile appears to others with ReactJS real-time preview as you edit.
+- **One-Click Sharing**: Seamlessly share your curated resources with colleagues.
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **ReactJS**: Used to build the application frontend. ReactJS is a fast JavaScript library due to its virtual DOM.
+- **Tailwind CSS**: Provides class-based CSS directly in HTML elements, making development faster and easier.
+- **Redux**: A JavaScript library that enables seamless data transfer between different components via a centralized data locker.
+- **Formik**: A React open-source library that simplifies handling repetitive tasks like tracking values, errors, and visited fields, orchestrating validation, and handling submission.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation and Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to get DevLinks up and running on your local machine:
 
-### `npm run eject`
+1. **Fork the repository**: Click on the fork icon at the top right side of the repository page.
+2. **Clone the repository**: Clone the forked repository to your local machine.
+    ```bash
+    git clone https://github.com/your-username/DevLinks.git
+    ```
+3. **Navigate to the project directory**:
+    ```bash
+    cd DevLinks
+    ```
+4. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+5. **Start the application**:
+    ```bash
+    npm start
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once the application is running, you can access it through your web browser. Follow the on-screen instructions to create and manage your developer profile and links.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For any inquiries or feedback, please contact us at [Personal Website](https://sumitkrjha.onrender.com).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using DevLinks! We hope it makes managing and sharing your development resources easier and more efficient.
